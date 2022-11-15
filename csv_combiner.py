@@ -23,7 +23,7 @@ def merge_csv_files(file_list: list) -> bool:
                     header_list.append(header)
 
     # print header
-    header_list.append('"file_name"')
+    header_list.append('"filename"')
     print(','.join(header_list))
 
     for file_index, input_file in enumerate(file_list):
